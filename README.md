@@ -1,11 +1,11 @@
-# Check pipx oudates
+# Check pipx outdates
 
 ## What it does
 check what pipx installed top level packages are outdated.
 
 Mostly educational/casual, for reference only.
 
-Demostrates asyncio with subprocess.
+Demostrates threading, asyncio with subprocess.
 
 DO NOT USE IN PRODUCTION OR ANYTHING SERIOUS !
 
@@ -28,6 +28,7 @@ Or just use the `run-{async,threads,sync}.py` script
 How I run it:
 ```
 # ~/.bashrc
+alias check-pipx-outdates="cd ~/SCRIPTS/check_pipx_oudates/ ; py.exe -m check_pipx_oudates ; cd -"
 
 ```
 
