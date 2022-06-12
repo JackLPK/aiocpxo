@@ -5,6 +5,10 @@ Check which pipx installed top level packages are outdated.
 
 A fun little demo for  threading, asyncio with subprocess.
 
+![example-1](docs/images/pic-1.png)
+
+![example-2](docs/images/pic-2.png)
+
 
 ## Usage
 
