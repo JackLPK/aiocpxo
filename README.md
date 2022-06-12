@@ -1,36 +1,28 @@
 # Check pipx outdates
 
 ## What it does
-check what pipx installed top level packages are outdated.
+Check which pipx installed top level packages are outdated.
 
-Mostly educational/casual, for reference only.
+A fun little demo for  threading, asyncio with subprocess.
 
-Demostrates threading, asyncio with subprocess.
-
-DO NOT USE IN PRODUCTION OR ANYTHING SERIOUS !
 
 ## Usage
-Recommand run as module.
-```
-python3 -m check_pipx_oudates
-# or
-python3 -m check_pipx_oudates async
-# or
-python3 -m check_pipx_oudates thread
-# or
-python3 -m check_pipx_oudates sync
-# or
-python3 -m check_pipx_oudates help
-```
-Or just use the `run-{async,threads,sync}.py` script
 
-## Personal Notes
-How I run it:
+Build with poetry and install with pipx
 ```
-# ~/.bashrc
-alias check-pipx-outdates="cd ~/SCRIPTS/check_pipx_oudates/ ; py.exe -m check_pipx_oudates ; cd -"
+# Build with poetry
+poetry build
 
+# Install with pipx
+pipx install ./dist/aiocpxo-X.X.X.whl
+
+
+# Use it
+aiocpxo
+
+# or
+cpxo -Tt
+
+# For help
+cpxo --help
 ```
-
-## Todo
-- Check injected packages as well
